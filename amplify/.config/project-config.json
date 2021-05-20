@@ -8,10 +8,10 @@
   "javascript": {
     "framework": "vue",
     "config": {
-      "SourceDir": "src",
-      "DistributionDir": "dist",
-      "BuildCommand": "npm run-script build",
-      "StartCommand": "npm run-script serve"
+      "SourceDir": "src/frontend",
+      "DistributionDir": "src/frontend/dist",
+      "BuildCommand": "npm run-script build --prefix src/frontend",
+      "StartCommand": "npm run-script serve --prefix src/frontend"
     }
   }
 }
