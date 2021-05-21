@@ -8,6 +8,7 @@ class ProcessBookingModel:
 
     Selection of important keys used across logging and tracing
 
+
     Parameters
     ----------
     customer_id: str
